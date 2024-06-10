@@ -1,0 +1,57 @@
+/* PlayerBoard Styles */
+.player_option_bord {
+    flex: 1 1 calc( 50%);
+    margin: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#player_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#player_score {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.player_moves {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.player_torn {
+    margin-top: 10px;
+}
+
+.option_game {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option_game:hover {
+    background-color: #3498db;
+}
+
+@media (max-width: 900px) {
+    .player_option_bord {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 600px) {
+    .player_option_bord {
+        flex: 1 1 calc(100% - 10px);
+    }
+}
